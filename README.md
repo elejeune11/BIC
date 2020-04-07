@@ -9,7 +9,7 @@ In the folder generate_dataset is the script run_single_simulation.py. To run th
 
 
 ## Code to create metamodels
-
+In the folder metamodels is the script create_ROC_curves.py (and matplotlib style file el_papers.mplstyle). This script is used to creat the ROC curves in the manuscript associated with the BIC dataset (link forthcoming). First, metamodels (support vector machine, neural network, Gaussian process classifier) are created from training data. Next, the performance on test data is evaluated. This simple script uses scikit-learn (https://scikit-learn.org/stable/supervised_learning.html#supervised-learning) to create the metamodels. 
 
 
 ## Code to execute a type 1 adversarial attack
