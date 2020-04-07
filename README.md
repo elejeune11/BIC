@@ -1,2 +1,7 @@
-# BIC
-Binary Instability Classification (BIC) dataset, code to generate BIC, code to fit models to BIC
+## Buckling Instability Classification (BIC) dataset 
+# FEA code to generate BIC, code to create metamodels, code to execute adversarial attacks
+# Link to permanent home of the dataset: (forthcoming)
+# Link to manuscript: (forthcoming)
+
+
+The Buckling Instability Classification (BIC) datasets contain the results of finite element simulations where a heterogeneous column is subject to a fixed level of applied displacement and is classified as either ``Stable'' or ``Unstable.'' Each model input is a 16x1 vector where the entries of the vector dictate the Young's Modulus (E) of the corresponding portion of the physical column domain. Each input file has 16 columns one for each vector entry. For each 16x1 vector input, there is a single output that indicates if the column was stable or unstable at the fixed level of applied displacement. An output value of ``0’’ indicates stable, and an output value of ``1’’ indicates unstable. In BIC-1, we only allow two possible discrete values for E: E=1 or E=4. In BIC-2, we allow three possible discrete values for E: E=1, E=4, or E=7. In BIC-3, we allow continuous values (to three digits of precision) of E in the range E=1–8. BIC-1 consists of 65,536 simulation results. This exhausts the entire possible input domain. BIC-2 consists of 100,000 simulation results. This is less than 1% of the entire possible input domain. BIC-3 also consists of 100,000 simulation results. This is a tiny fraction of the entire possible input domain. 
