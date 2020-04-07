@@ -13,10 +13,11 @@ In the folder metamodels is the script create_ROC_curves.py (and matplotlib styl
 
 
 ## Code to execute a type 1 adversarial attack
-
+In the folder attack_type_1 is the script execute_attack_type_1.py. This script is used to execute the type 1 attack in the manuscript associated with the BIC dataset (link forthcoming). The script attack_type_1_plots.py is used to generate the plots in the results section of the manuscript (link forthcoming). 
 
 
 ## Code to execute a type 2 adversarial attack 
+In the folder attack_type_2 is the script execute_attack_type_2.py. This script is used to execute the type 2 attack in the manuscript associated with the BIC dataset (link forthcoming). The script attack_type_2_plots.py is used to generate the plots in the results section of the manuscript (link forthcoming). 
 
 
 
