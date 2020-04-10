@@ -1,5 +1,5 @@
 # Buckling Instability Classification (BIC) dataset 
-### Link to permanent home of the dataset: (forthcoming)
+### Link to permanent home of the dataset: https://open.bu.edu/handle/2144/40085
 ### Link to manuscript: (forthcoming)
 
 ## FEA code to generate BIC 
